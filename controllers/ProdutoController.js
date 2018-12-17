@@ -1,4 +1,4 @@
-var app = angular.module('produto', ["ngResource"]);
+var app = angular.module('app', ["ngResource"]);
 
 
 app.factory('consumerProduto', function($resource){
@@ -6,7 +6,7 @@ app.factory('consumerProduto', function($resource){
 
 });
 
-app.controller('ProdutoCtrl', ['$scope', function($scope, $location, $rootScope){
+app.controller('ProdutoCtrl',['$scope',  function($scope, $location, $rootScope){
 
 
 

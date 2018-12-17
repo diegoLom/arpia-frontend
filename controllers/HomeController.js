@@ -1,7 +1,7 @@
-var app = angular.module("home", []);
+var app = angular.module("app", []);
 
 
-app.controller("HomeCtrl",["$scope", function($scope, $rootScope, $location){
+app.controller("HomeCtrl",['$scope', function($scope, $rootScope, $location){
 
-    $rootScope.activeLab = $location.path();
+    $rootScope.activetab = $location.path();
 }]);
