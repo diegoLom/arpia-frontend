@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head ng-include="include.html">
+
+    </head>
+    <body ng-app='categoria'>
+        <div ng-controller='CategoriaController'>
+            <div ng-repeat='categoria in categorias'>
+                <div class="row">
+                  <p>{{ categoria.codigo }}</p>
+                </div>
+                <div class="row">
+                    <p>{{ categoria.descricao }}</p>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
